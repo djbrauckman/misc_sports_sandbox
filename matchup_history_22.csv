@@ -1,0 +1,87 @@
+,Week,Name1,Score1,Name2,Score2,Type
+0,1,Loading ...,129.95,Penny for the Herb,126.65,Regular
+1,1,Jameson Shots,97.95,Oh No We Suck Again ,148.5,Regular
+2,1,This was Jeopardy,98.15,Mayor of  Griddy City,131.5,Regular
+3,1,The Replacements,122.95,Quad Squad,152.8,Regular
+4,1,Bumblebee Tuna,112.7,Olave Doubies,114.45,Regular
+5,2,Loading ...,145.55,Jameson Shots,94.3,Regular
+6,2,Penny for the Herb,170.9,Bumblebee Tuna,153.15,Regular
+7,2,Quad Squad,98.05,This was Jeopardy,145.1,Regular
+8,2,Olave Doubies,135.85,The Replacements,120.05,Regular
+9,2,Mayor of  Griddy City,125.6,Oh No We Suck Again ,101.45,Regular
+10,3,This was Jeopardy,118.8,The Replacements,84.7,Regular
+11,3,Bumblebee Tuna,101.15,Jameson Shots,101.5,Regular
+12,3,Penny for the Herb,144.85,Oh No We Suck Again ,118.25,Regular
+13,3,Olave Doubies,128.6,Loading ...,119,Regular
+14,3,Quad Squad,113,Mayor of  Griddy City,104.65,Regular
+15,4,This was Jeopardy,119.8,Oh No We Suck Again ,108.55,Regular
+16,4,Penny for the Herb,131.6,Loading ...,119.5,Regular
+17,4,Bumblebee Tuna,99.75,Mayor of  Griddy City,110.5,Regular
+18,4,Olave Doubies,157.35,Jameson Shots,150.65,Regular
+19,4,Quad Squad,123.45,The Replacements,114.95,Regular
+20,5,The Replacements,110.3,Mayor of  Griddy City,93,Regular
+21,5,Loading ...,106.05,This was Jeopardy,136.7,Regular
+22,5,Oh No We Suck Again ,94.65,Quad Squad,146.8,Regular
+23,5,Jameson Shots,173.95,Penny for the Herb,152.3,Regular
+24,5,Olave Doubies,141.7,Bumblebee Tuna,75.5,Regular
+25,6,Loading ...,111.55,Bumblebee Tuna,79.85,Regular
+26,6,Mayor of  Griddy City,85.6,This was Jeopardy,85.2,Regular
+27,6,Jameson Shots,132.6,Quad Squad,146.7,Regular
+28,6,Olave Doubies,128.65,Penny for the Herb,104.8,Regular
+29,6,The Replacements,131.2,Oh No We Suck Again ,123.1,Regular
+30,7,Loading ...,71.15,Quad Squad,150.45,Regular
+31,7,Bumblebee Tuna,107.7,This was Jeopardy,95.1,Regular
+32,7,Penny for the Herb,116.65,Mayor of  Griddy City,106.55,Regular
+33,7,Olave Doubies,108.15,Oh No We Suck Again ,155.85,Regular
+34,7,Jameson Shots,126.55,The Replacements,113.7,Regular
+35,8,Loading ...,153.55,Mayor of  Griddy City,140.55,Regular
+36,8,Jameson Shots,130.7,This was Jeopardy,153.4,Regular
+37,8,Olave Doubies,141,Quad Squad,130.55,Regular
+38,8,Penny for the Herb,140.55,The Replacements,131.4,Regular
+39,8,Bumblebee Tuna,96.2,Oh No We Suck Again ,126.4,Regular
+40,9,Penny for the Herb,84.55,This was Jeopardy,72.75,Regular
+41,9,Bumblebee Tuna,125.95,Quad Squad,172.6,Regular
+42,9,Jameson Shots,120.45,Oh No We Suck Again ,139.3,Regular
+43,9,Loading ...,129.65,The Replacements,118.15,Regular
+44,9,Olave Doubies,125.45,Mayor of  Griddy City,122.1,Regular
+45,10,Bumblebee Tuna,116.45,Loading ...,103.75,Regular
+46,10,This was Jeopardy,91.9,Mayor of  Griddy City,171.15,Regular
+47,10,Olave Doubies,88.6,Jameson Shots,110.55,Regular
+48,10,Penny for the Herb,94.8,Quad Squad,120.15,Regular
+49,10,The Replacements,77.3,Oh No We Suck Again ,129,Regular
+50,11,Oh No We Suck Again ,122.95,This was Jeopardy,125.35,Regular
+51,11,Olave Doubies,106.25,Loading ...,79.5,Regular
+52,11,Bumblebee Tuna,144.75,The Replacements,54.85,Regular
+53,11,Penny for the Herb,135.1,Jameson Shots,156.6,Regular
+54,11,Mayor of  Griddy City,122.05,Quad Squad,123.25,Regular
+55,12,Loading ...,123.55,Oh No We Suck Again ,141.7,Regular
+56,12,Penny for the Herb,118.1,Olave Doubies,143.65,Regular
+57,12,Jameson Shots,164.45,Bumblebee Tuna,105.5,Regular
+58,12,The Replacements,96.45,Mayor of  Griddy City,159.8,Regular
+59,12,This was Jeopardy,114.2,Quad Squad,101.4,Regular
+60,13,Bumblebee Tuna,92.95,Olave Doubies,93.95,Regular
+61,13,Jameson Shots,121,Mayor of  Griddy City,147.1,Regular
+62,13,The Replacements,106.55,This was Jeopardy,69.95,Regular
+63,13,Loading ...,143.4,Penny for the Herb,105.85,Regular
+64,13,Oh No We Suck Again ,175.6,Quad Squad,119.95,Regular
+65,14,Jameson Shots,97.7,Loading ...,89.25,Playoff
+66,14,Olave Doubies,82.75,This was Jeopardy,126.2,Playoff
+67,14,Penny for the Herb,91.85,Bumblebee Tuna,109.9,Playoff
+68,14,Oh No We Suck Again ,130.25,Mayor of  Griddy City,133.25,Playoff
+69,14,The Replacements,109.85,Quad Squad,128.4,Playoff
+70,15,,,Olave Doubies,0,Playoff
+71,15,Oh No We Suck Again ,119.7,This was Jeopardy,112.4,Playoff
+72,15,Jameson Shots,143.8,Mayor of  Griddy City,145.6,Playoff
+73,15,,,Quad Squad,163.9,Playoff
+74,15,Loading ...,141.55,Penny for the Herb,125.25,Playoff
+75,15,The Replacements,105.4,Bumblebee Tuna,76.4,Playoff
+76,16,Oh No We Suck Again ,105.55,Olave Doubies,129.6,Playoff
+77,16,Mayor of  Griddy City,128.95,Quad Squad,138.4,Playoff
+78,16,Jameson Shots,106.95,This was Jeopardy,119.55,Playoff
+79,16,The Replacements,89.95,Loading ...,103.4,Playoff
+80,16,Bumblebee Tuna,86.85,Penny for the Herb,97.55,Playoff
+81,17,Quad Squad,112.7,Olave Doubies,108.3,Playoff
+82,17,Oh No We Suck Again ,115.8,Mayor of  Griddy City,82.55,Playoff
+83,17,Jameson Shots,96.6,This was Jeopardy,99.45,Playoff
+84,17,Loading ...,68.2,Penny for the Herb,147.5,Playoff
+85,17,The Replacements,66.05,Bumblebee Tuna,101.65,Playoff
