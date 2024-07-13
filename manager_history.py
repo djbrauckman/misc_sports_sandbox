@@ -128,12 +128,10 @@ replacements = {
 
 
 #Replace team name with manager name
-
 df_mh_all["Name1"] = df_mh_all["Name1"].replace(replacements)
 df_mh_all["Name2"] = df_mh_all["Name2"].replace(replacements)
 
 #Split out the regular season and playoffs
-#ADD A DIFFERENTIATION BETWEN A TRUE PLAYOFF GAME AND CONSOLATION
 df_mh_all_reg = df_mh_all[df_mh_all["Type"] == "Regular"]
 df_mh_all_ps = df_mh_all[df_mh_all["Type"] == "Playoff"]
 df_mh_all_c = df_mh_all[df_mh_all["Type"] == "Consolation"]
@@ -156,17 +154,17 @@ def rs_record_by_opponent(manager):
         losses = 0
         ties = 0
         
-        # Filter games where the manager is Name1 and opponent is Name2
+        #Filter games where the manager is Name1 and opponent is Name2
         manager_as_name1 = df_mh_all_reg[(df_mh_all_reg['Name1'] == manager) 
                                          & (df_mh_all_reg['Name2'] == opponent) 
                                          & df_mh_all_reg['Name1'].notna()
                                          & df_mh_all_reg['Name2'].notna()]
-        # Filter games where the manager is Name2 and opponent is Name1
+        #Filter games where the manager is Name2 and opponent is Name1
         manager_as_name2 = df_mh_all_reg[(df_mh_all_reg['Name2'] == manager) & (df_mh_all_reg['Name1'] == opponent)
                                          & df_mh_all_reg['Name1'].notna()
                                          & df_mh_all_reg['Name2'].notna()]
         
-        # Calculate wins, losses, and ties
+        #Calculate records
         for index, row in manager_as_name1.iterrows():
             if row['Score1'] > row['Score2']:
                 wins += 1
@@ -215,17 +213,17 @@ def ps_record_by_opponent(manager):
         losses = 0
         ties = 0
         
-        # Filter games where the manager is Name1 and opponent is Name2
+        #Filter games where the manager is Name1 and opponent is Name2
         manager_as_name1 = df_mh_all_ps[(df_mh_all_ps['Name1'] == manager) 
                                          & (df_mh_all_ps['Name2'] == opponent) 
                                          & df_mh_all_ps['Name1'].notna()
                                          & df_mh_all_ps['Name2'].notna()]
-        # Filter games where the manager is Name2 and opponent is Name1
+        #Filter games where the manager is Name2 and opponent is Name1
         manager_as_name2 = df_mh_all_ps[(df_mh_all_ps['Name2'] == manager) & (df_mh_all_ps['Name1'] == opponent)
                                          & df_mh_all_ps['Name1'].notna()
                                          & df_mh_all_ps['Name2'].notna()]
         
-        # Calculate wins, losses, and ties
+        #Calculate records
         for index, row in manager_as_name1.iterrows():
             if row['Score1'] > row['Score2']:
                 wins += 1
@@ -275,17 +273,17 @@ def cons_record_by_opponent(manager):
         losses = 0
         ties = 0
         
-        # Filter games where the manager is Name1 and opponent is Name2
+        #Filter games where the manager is Name1 and opponent is Name2
         manager_as_name1 = df_mh_all_c[(df_mh_all_c['Name1'] == manager) 
                                          & (df_mh_all_c['Name2'] == opponent) 
                                          & df_mh_all_c['Name1'].notna()
                                          & df_mh_all_c['Name2'].notna()]
-        # Filter games where the manager is Name2 and opponent is Name1
+        #Filter games where the manager is Name2 and opponent is Name1
         manager_as_name2 = df_mh_all_c[(df_mh_all_c['Name2'] == manager) & (df_mh_all_c['Name1'] == opponent)
                                          & df_mh_all_c['Name1'].notna()
                                          & df_mh_all_c['Name2'].notna()]
         
-        # Calculate wins, losses, and ties
+        #Calculate records
         for index, row in manager_as_name1.iterrows():
             if row['Score1'] > row['Score2']:
                 wins += 1
